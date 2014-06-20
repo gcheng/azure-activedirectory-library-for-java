@@ -765,7 +765,7 @@ public class AuthenticationContext {
 		String clientId="04b07795-8ddb-461a-bbee-02f9e1bf7b46";
 		// ClientAuthentication clientAuth = createClientAuthInstanceFromClientAssertion(clientAssertion);
 		Map<String,String> authParameters = new HashMap<String,String>();
-		authParameters.put("resource", "https://management.core.windows.net");
+		authParameters.put("resource", "https://management.azure.com/");
 		authParameters.put("grant_type", grantType.getValue());
 		authParameters.put("scope", "openid");
 		authParameters.put("client_id", clientId);
